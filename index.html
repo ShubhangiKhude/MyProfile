@@ -5,42 +5,86 @@
     <title>Index page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-    <!-- <style>
+    <style>
+        .fontAwesomeContacts{
+            /* border: solid 2px red; */
+            padding: 15px;
+            margin: 15px;
+        }
+
+        a{
+            padding: 15px;
+            margin: 10px;
+        }
+
+        .myclass{
+            padding: 10px;
+            margin: 8px;
     
-    </style> -->
+        }
+        
+        #unique{
+            padding: 5px;
+        }
+               
+    </style>
 </head>
 
 <body>
     <header style="color:deeppink; background-color: rgb(180, 231, 231);">
+        <span class="fontAwesomeContacts">
         <i class="fa fa-user" aria-hidden="true"></i>
-        <b>Shubhangi Khude</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <b>Shubhangi Khude</b>
+    </span>
+
+    <span class="fontAwesomeContacts">
         <i class="fa fa-phone-square" aria-hidden="true"></i>
-        <b> 8698 &nbsp;2801&nbsp;23 </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <b> 8698 <span id="unique">2801</span>23 </b>
+    </span>
+
+    <span class="fontAwesomeContacts">
         <i class="fa fa-envelope" aria-hidden="true"></i>
-        <b> shubhangikhude3@gmail.com </b><br />
+        <b> shubhangikhude3@gmail.com </b>
+        </span><br />
     </header><br>
 
-    <a href="home.html" target="myFrame"> HOME </a>&nbsp;&nbsp;
-    <a href="techStak.html" target="myFrame"> TECH STACK </a>&nbsp;&nbsp;
-    <a href="education.html" target="myFrame"> EDUCATION </a>&nbsp;&nbsp;
-    <a href="project.html" target="myFrame"> PROJECT </a>&nbsp;&nbsp;
-    <a href="hobbies.html" target="myFrame"> HOBBIES </a>&nbsp;&nbsp;
-    <a href="personal.html" target="myFrame"> PERSONAL </a>&nbsp;&nbsp;
+    <a href="home.html" target="myFrame"> HOME </a>
+    <a href="techStak.html" target="myFrame"> TECH STACK </a>
+    <a href="education.html" target="myFrame"> EDUCATION </a>
+    <a href="project.html" target="myFrame"> PROJECT </a>
+    <a href="hobbies.html" target="myFrame"> HOBBIES </a>
+    <a href="personal.html" target="myFrame"> PERSONAL </a>
     <a href="contactUs.html" target="myFrame"> CONTACT US</a><br><br>
 
     <iframe height="500px" width="900px" name="myFrame" src="home.html"></iframe>
 
     <footer>
-        <h4>
-            Follow me &nbsp;&nbsp;
-            <i class="fa fa-twitter-square" aria-hidden="true"
-                style="color: purple"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-linkedin-square" aria-hidden="true"
-                style="color: purple"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-google" aria-hidden="true" style="color: purple"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-instagram" aria-hidden="true" style="color: purple"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-facebook-official" aria-hidden="true" style="color: purple"></i>
-        </h4>
+        <p>
+            <span class="myclass">
+            Follow me</span>
+            <span class="myclass">
+                <i class="fa fa-twitter-square" aria-hidden="true"
+                style="color: purple"></i>
+            </span>
+           
+            <span class="myclass">
+                <i class="fa fa-linkedin-square" aria-hidden="true"
+                style="color: purple"></i>
+            </span>
+           
+            <span class="myclass">
+                <i class="fa fa-google" aria-hidden="true" style="color: purple"></i>
+            </span>
+
+            <span class="myclass">
+                <i class="fa fa-instagram" aria-hidden="true" style="color: purple"></i>
+            </span>
+            
+            <span class="myclass">
+                <i class="fa fa-facebook-official" aria-hidden="true" style="color: purple"></i>
+            </span>
+            
+        </p>
     </footer>
 </body>
 
