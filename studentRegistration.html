@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> registration form </title>
+            <style>
+                body{
+                    background-image: url(s1.webp);
+                }
+                h2{
+                    text-align: center;
+                }
+
+                form{
+                    padding-left: 500px;
+                }
+                label{
+                    color:darkviolet;
+                }
+
+                input[type="text"], input[type="password"],input[type="datetime"]{
+                    color: rgb(230, 23, 102);
+                    border-radius: 20px;
+                }
+
+                input[type="file"]{
+                    color: rgb(230, 23, 102);
+                    border: 1px solid;
+                    border-radius: 10px;
+                }
+
+                input[type="submit"]{
+                    background-color: aqua;
+                    height: 30px;
+                    width: 70px;
+                    border-radius: 5px;
+                }
+
+                input[type="reset"]{
+                    background-color: cornflowerblue;
+                    height: 30px;
+                    width: 70px;
+                    border-radius: 5px;
+                }
+ 
+                input[type="number"] ,input[type="email"], input[type="date"],input[type="week"]{
+                    color: rgb(230, 23, 102);
+                    border-radius: 20px;
+                }
+
+                textarea{
+                    color: rgb(230, 23, 102);
+                    border-radius: 20px;
+                }
+
+                .myclass label{
+                    color: rgb(230, 23, 102);
+                }
+            </style>
+    </head>
+    <body>
+        <h2><i> Student Registration form </i></h2>
+        <form>
+            
+            <table>
+                <tbody>
+                    <tr>
+                        <td> <label> First Name</label></td>
+                        <td> <input type="text" placeholder="Only Capital Letters" required autofocus></td>
+                    </tr>
+
+                    <tr>
+                        <td> <label> Last Name</label></td>
+                        <td> <input type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td> <label> Mobile Number </label></td>
+                        <td> <input type="number" placeholder="max 10 digits"></td>
+                    </tr>
+
+                    <tr>
+                        <td> <label> Email </label></td>
+                        <td> <input type="email" placeholder="abc@gmail.com"></td>
+                    </tr>
+
+                    <tr>
+                        <td> <label> Password </label></td>
+                        <td> <input type="password" placeholder="Enter valid password"></td>
+                    </tr>
+
+                    <tr>
+                        <td> <label> Date of Birth </label></td>
+                        <td> <input type="date"></td>
+                    </tr>
+
+                    <tr>
+                        <td> <label> Available in week </label></td>
+                        <td> <input type="week"></td>
+                    </tr>
+
+                    <tr>
+                        <td> <label> Available in time </label></td>
+                        <td> <input type="datetime"></td>
+                    </tr>
+
+                    <tr>
+                        <td> <label> Profile photo </label></td>
+                        <td> <input type="file"></td>
+                    </tr>
+                    
+
+                    <tr>
+                        <td> <label> Marklist </label></td>
+                        <td> <input type="file" multiple></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Graduation  </label> </td>
+                        <td> 
+                            <select>
+                                <option> BE </option>
+                                <option> MCA </option>
+                                <option> BCA  </option>
+                                <option> BSC </option>
+                                <option> B.Tech</option>
+                                <option> BCS </option>
+                                <option> MSC </option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr> 
+                        <td> <label> Select Gender </label> </td>
+                        <td> 
+                            <input type="radio" name="gender"> <span class="myclass"><label> Male</label></span>
+                            <input type="radio" name="gender"> <span class="myclass"><label> Female </label></span>
+                            <input type="radio" name="gender"> <span class="myclass"><label> Others </label></span>
+                        </td>
+                      </tr>
+
+                      <tr> 
+                        <td> <label> Select Training </label> </td>
+                        <td> 
+                           <input type="checkbox"> <span class="myclass"><label> Angular </label></span>
+                           <input type="checkbox"> <span class="myclass"><label> React </label></span>
+                           <input type="checkbox"> <span class="myclass"><label> Java </label></span>
+                           <input type="checkbox"> <span class="myclass"><label> Data Science </label></span>
+                           <input type="checkbox"> <span class="myclass"><label> Manual + Automation Testing </label></span>
+                        </td>
+                      </tr>
+            
+            
+
+                    <tr>
+                        <td> <label> Age</label></td>
+                        <td> <input type="number"></td>
+                    </tr>
+
+                    <tr>
+                        <td> <label> State </label></td>
+                        <td> <input type="text" value="MH" readonly></td>
+                    </tr>
+
+                    <tr>
+                        <td> <label> Country </label></td>
+                        <td> <input type="text" value="India" disabled></td>
+                    </tr>
+
+                    <tr>
+                        <td> <label> Present Address </label> </td>
+                        <td> <textarea rows="5" cols="24">  </textarea> </td>
+                      </tr>
+            
+
+                    <tr>    
+                        <td> <input type="submit"> </td>
+                        <td> <input type="reset"> </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </form>
+        
+    </body>
+</html>
